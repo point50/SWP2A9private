@@ -1,7 +1,7 @@
 import DateReserve from "@/components/DateReserve";
 import { Select, MenuItem, TextField } from "@mui/material";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../api/auth/[...nextauth]/route";
+import { authOptions } from "../api/auth/[...nextauth]/authOptions";
 import getUserProfile from "@/libs/getUserProfile";
 
 
